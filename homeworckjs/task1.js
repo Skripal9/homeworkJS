@@ -1,5 +1,9 @@
-let number = prompt("Введите число");
-
-if (number = '') {
-    alert(number === true)
+let number = prompt("ВВедите число")
+let value = true
+if (number == undefined) {
+    alert(value);
 }
+/* } else if (number ==) {
+    
+}
+ */
