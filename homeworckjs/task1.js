@@ -1,9 +1,7 @@
 let number = prompt("ВВедите число")
 let value = true
-if (number == undefined) {
+if (number == '') {
     alert(value);
+} else if (number !== '') {
+    alert(number);
 }
-/* } else if (number ==) {
-    
-}
- */
