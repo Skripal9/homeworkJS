@@ -1,5 +1,5 @@
 //ввели цыфру или строку
-function valueisNAN (n) {
+/* function valueisNAN (n) {
     
     if (isNaN(n)){
         console.log("введите цыфру")
@@ -30,6 +30,32 @@ if (valueisNAN(userInfo) == isNaN){
 } else {
 
 }
+ */
+function stringgUp(str) {
+    if(!str) return str;
+    
+    return str[0].toUpperCase() +
+           str[1].toUpperCase() + 
+           str.slice(2);
+}
+
+function parametr2 (a,b) {
+    let stringg = (b + a);
+    if (stringg.length < 2) {
+        console.log("введите минемум 3 буквы")
+    } else {
+        console.log(stringg)
+    }return stringg
+}
+let t = "rso"
+let d = "kto"
+
+let stringg
+
+parametr2(t,d)
+stringgUp(parametr2())
+
+
 
 
 
@@ -38,5 +64,5 @@ if (valueisNAN(userInfo) == isNaN){
   если оно меньше 10, умножить его на 2,
    иначе разделить на 10. Учесть проверку на число.
    Написать функцию, принимающую два параметра.
-    Результат выполнения функции- строка,
+    Результат выполнения функции - строка,
      состоящая из двух первых заглавных букв. */
