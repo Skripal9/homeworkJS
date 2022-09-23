@@ -1,4 +1,40 @@
-//ввели цыфру или строку
+function fiorsFunction (name) {
+      console.log("name", name);
+}
+fiorsFunction("tilia")
+
+var thoName = function(name) {
+    console.log("name", name);
+}
+thoName("adgr")
+
+var threeName = (name) => console.log("name", name)
+threeName("asdasd")
+
+function nummderValue(a) {
+    if (typeof a == `Number`) {
+        if (a < 10) {
+            console.log(a *= 2);
+        }
+        else {
+            console.log(a /= 10);
+        }
+    } return a;
+}
+nummderValue(5);
+console.log(nummderValue(5));
+
+function tooValue(fiorst, thoo) {
+   return fiorst.charAt(0).toUpperCase() + thoo.charAt(0).toUpperCase();
+}
+
+console.log(tooValue("javascrip", "html"));
+
+/* 
+Написать функцию, принимающую два параметра. 
+Результат выполнения функции- строка, 
+состоящая из двух первых заглавных букв. */
+
 /* function valueisNAN (n) {
     
     if (isNaN(n)){
@@ -31,7 +67,7 @@ if (valueisNAN(userInfo) == isNaN){
 
 }
  */
-function stringgUp(str) {
+/* function stringgUp(str) {
     if(!str) return str;
     
     return str[0].toUpperCase() +
@@ -54,15 +90,7 @@ let stringg
 
 parametr2(t,d)
 stringgUp(parametr2())
+ */
 
 
 
-
-
-/* Написать функцию,
- принимающую на вход число,
-  если оно меньше 10, умножить его на 2,
-   иначе разделить на 10. Учесть проверку на число.
-   Написать функцию, принимающую два параметра.
-    Результат выполнения функции - строка,
-     состоящая из двух первых заглавных букв. */
