@@ -1,24 +1,38 @@
+//ввели цыфру или строку
 function valueisNAN (n) {
-    let namb = prompt("Введите число")
-
-    if (isNaN(namb)){
-        alert("введите цыфру")
+    
+    if (isNaN(n)){
+        console.log("введите цыфру")
     } else {
-        alert ("это цыфра!")
+         console.log("это цыфра!") 
     }
-    return namb
+    return
+    
 }
+
 
 function myFunction (a) {
     if (a < 10) {
         console.log(a * 2)
-    }else {
+    }else if (a > 10){
         console.log(a / 10)
     }
+    return
+}
+let userInfo = prompt("ведите число")
+
+/* valueisNAN(userInfo);
+myFunction(userInfo); */
+
+if (valueisNAN(userInfo) == isNaN){
+
+} else if(myFunction(userInfo)) {
+    console.log(userInfo)
+} else {
+
 }
 
-let namb 
-myFunction(namb);
+
 
 /* Написать функцию,
  принимающую на вход число,
