@@ -21,8 +21,7 @@ function myFunction (a) {
 }
 let userInfo = prompt("ведите число")
 
-/* valueisNAN(userInfo);
-myFunction(userInfo); */
+
 
 if (valueisNAN(userInfo) == isNaN){
 
